@@ -1,5 +1,5 @@
 /**
- * It updates the grades of a list of students in a given city.
+ * a list of students grades will updated by a given city.
  * @param {{
  *   id: Number,
  *   firstName: String,
@@ -9,7 +9,7 @@
  * @param {{
  *   studentId: Number,
  *   grade: Number,
- * }[]} newGrades - The new grades to be given to a student.
+ * }[]} newGrades - grades to be given to a student.
  * @returns {{id: Number, firstName: String, location: String}[]}
  */
 export default function updateStudentGradeByCity(students, city, newGrades) {
